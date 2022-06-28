@@ -48,7 +48,7 @@
                   <el-menu-item index="/swiper"><i class="el-icon-picture" />Icon和按钮配置</el-menu-item>
                   <el-menu-item index="/choose"><i class="el-icon-star-on" />单选多选框</el-menu-item>
                   <el-menu-item index="/form"><i class="el-icon-sell" />Form 表单</el-menu-item>
-                  <el-menu-item index="/recommend"><i class="el-icon-thumb" />为你推荐配置</el-menu-item>
+                  <el-menu-item index="/alert"><i class="el-icon-thumb" />Alert提示</el-menu-item>
                 </el-menu-item-group>
               </el-sub-menu>
               <el-sub-menu index="3">

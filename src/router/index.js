@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    redirect: '/home'
+    redirect: '/introduce'
   },
   {
     path: '/home',
@@ -37,6 +37,10 @@ const routes = [
   {
     path: '/vuex',
     component: () => import('../views/main/VuexView.vue')
+  },
+  {
+    path: '/alert',
+    component: () => import('../views/main/AlertView.vue')
   }
 ]
 const router = createRouter(
